@@ -6,6 +6,7 @@ import router from './src/router';
 import VuePlyr from 'vue-plyr';
 import { createPinia } from 'pinia';
 
+console.log("reached here");
 
 const pinia = createPinia();
 
