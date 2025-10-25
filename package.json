@@ -1,0 +1,21 @@
+{
+  "name": "laraflow",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.js",
+    "build": "vite build --config vite.config.js"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "laravel-vite-plugin": "^1.0.0",
+    "vite": "^5.0.0",
+    "vue": "^3.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "pinia": "^3.0.3",
+    "vue-plyr": "^7.0.0",
+    "vue-router": "^4.6.3"
+  }
+}
