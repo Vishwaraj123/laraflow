@@ -2,15 +2,33 @@
     "name": "vishwaraj/laraflow",
     "description": "A visual flow builder for Laravel - create, edit, and save automation or chatbot flows using a drag-and-drop interface powered by Vue Flow.",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Vishwaraj Dhummad",
+            "email": "vishwarajdhummad@outlook.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Vishwaraj\\Laraflow\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Vishwarajsinh Dhummad"
+    "autoload-dev": {
+        "psr-4": {
+            "Vishwaraj\\Laraflow\\Tests\\": "tests/"
         }
-    ],
-    "require": {}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vishwaraj\\Laraflow\\Providers\\LaraflowServiceProvider"
+            ],
+            "aliases": {
+                "Laraflow": "Vishwaraj\\Laraflow\\Facades\\Laraflow"
+            }
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    }
 }
