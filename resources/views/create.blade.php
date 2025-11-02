@@ -1,4 +1,4 @@
-@extends('laraflow::layouts.app')
+@extends('laraflow-views::layouts.app')
 
 @section('content')
     <div id="app"></div>

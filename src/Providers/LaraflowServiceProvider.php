@@ -15,6 +15,6 @@ class LaraflowServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__ . '/../../routes/web.php');
         $this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'laraflow');
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'laraflow-views');
     }
 }

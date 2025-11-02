@@ -12,7 +12,7 @@ class FlowController extends Controller
      */
     public function index()
     {
-        return view('laraflow::index');
+        return view('laraflow-views::index');
     }
     
     /**
@@ -20,7 +20,7 @@ class FlowController extends Controller
      */
     public function create()
     {
-        return view('laraflow::create');
+        return view('laraflow-views::create');
     }
 
     /**
