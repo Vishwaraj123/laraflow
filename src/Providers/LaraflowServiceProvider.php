@@ -1,0 +1,14 @@
+<?php
+
+namespace Vishwaraj\Laraflow\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+class LaraflowServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        $this->loadRoutesFrom(__DIR__ . '/../../routes/web.php');
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'laraflow');
+    }
+}
